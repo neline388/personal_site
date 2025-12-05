@@ -189,11 +189,11 @@ styles:[`
 })
 export class midcomponent {
 
-    imageSrc = 'assets/pictures/Gemini_Generated_Image_viqchtviqchtviqc (1).png';  // default image
+    imageSrc = './assets/pictures/Gemini_Generated_Image_viqchtviqchtviqc (1).png';  // default image
 
     swapImage(isHover: boolean) {
         this.imageSrc = isHover
-            ? 'assets/pictures/transparent_output (1).png'
-            : 'assets/pictures/Gemini_Generated_Image_viqchtviqchtviqc (1).png';
+            ? './assets/pictures/transparent_output (1).png'
+            : './assets/pictures/Gemini_Generated_Image_viqchtviqchtviqc (1).png';
     }
 }
