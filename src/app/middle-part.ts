@@ -48,7 +48,6 @@ styles:[`
         gap: 300px;
     }
     
-    /* ----- VISUAL SIDE ----- */
     .visual-side {
         position: relative;
         flex-shrink: 0;
@@ -90,7 +89,6 @@ styles:[`
         transform: translate(20px, -15px) rotate(-25deg) scale(1.02);
     }
     
-    /* ----- TEXT SIDE ----- */
     .text-side { 
         flex: 1; 
         display: flex; 
@@ -110,10 +108,7 @@ styles:[`
         font-family: 'Arial', sans-serif; 
         font-weight: 500; 
     }
-    
-    /* ------------------------------------------------------
-       RESPONSIVE BREAKPOINT — STACK TEXT UNDER IMAGE
-    ------------------------------------------------------- */
+
     @media (max-width: 900px) {
 
 .container {
@@ -123,12 +118,10 @@ styles:[`
     gap: 40px;
 }
 
-/* Reduce container spacing for phone screens */
 .mid {
     margin: 40px auto;
 }
 
-/* Visual area shrinks */
 .visual-side {
     width: 250px;
     height: 250px;
@@ -138,7 +131,6 @@ styles:[`
     align-items: center;
 }
 
-/* Shrink gradient square */
 .skewed-square {
     width: 260px;
     height: 260px;
@@ -147,23 +139,20 @@ styles:[`
     left: 0;
 }
 
-/* Overlapping image resized + centered */
 .overlapping-image {
     width: 230px;
     height: 230px;
     position: relative;
     top: 0;
     left: 0;
-    transform: none !important; /* remove offsets */
+    transform: none !important;
     object-fit: contain;
 }
 
-/* Prevent image hover from breaking layout */
 .overlapping-image:hover {
     transform: scale(1.03);
 }
 
-/* Text centered on mobile */
 .text-container {
     text-align: center;
     max-width: 90%;
@@ -174,7 +163,6 @@ styles:[`
 }
 }
 
-/* Ultra-small screens */
 @media (max-width: 500px) {
 
 .visual-side {
