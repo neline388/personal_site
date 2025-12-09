@@ -194,6 +194,6 @@ export class midcomponent {
     swapImage(isHover: boolean) {
         this.imageSrc = isHover
             ? 'assets/pictures/transparent_output(1).png'
-            : 'assets/pictures/Gemini_Generated_Image_viqchtviqchtviqc.png';
+            : 'assets/pictures/Gemini_Generated_Image_viqchtviqchtviqc(1).png';
     }
 }
